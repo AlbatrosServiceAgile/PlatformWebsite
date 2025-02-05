@@ -4668,6 +4668,23 @@ input[type=color] {
   padding-left: 20px;
   border-left: solid 1px #cbcbcb
 }
+.tp-service-p{
+  margin: 0;
+  font-family: var(--tp-ff-urban);
+  font-style: italic;
+  margin-left: 15px;
+  color: #f52f42;
+  font-size: 25px;
+  line-height: 25px
+}
+.tp-service-div-p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  padding-left: 20px;
+}
 .tp-header-p{
   margin: 0;
   font-family: var(--tp-ff-dm);
