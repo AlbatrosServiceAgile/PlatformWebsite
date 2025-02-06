@@ -14130,6 +14130,12 @@ input[type=color] {
   font-size: 18px;
   line-height: 14px;
 }
+.tp-price-top-title-wrapper span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 14px;
+  color: var(--tp-theme-3);
+}
 .tp-price-top-title-wrapper h4 em {
   font-style: normal;
   font-weight: 500;
@@ -14455,7 +14461,7 @@ input[type=color] {
   color: var(--tp-common-black);
 }
 .price-inner-white-bg .tp-price-top-title-wrapper p {
-  color: #5F6168;
+  color: var(--tp-theme-3);
 }
 .price-inner-white-bg .tp-price-top-title-wrapper .tp-btn-service {
   background-color: var(--tp-theme-2);
@@ -15964,10 +15970,11 @@ input[type=color] {
   border: 1px solid #E5E5E5;
   border-radius: 12px;
   text-align: center;
-  padding: 55px 30px;
+  padding: 30px 30px;
   overflow: hidden;
   backdrop-filter: blur(9px);
   background-color: rgba(248, 248, 248, 0.8);
+  height: 100%;
 }
 .contact-info-img {
   margin-bottom: 35px;
@@ -15976,7 +15983,7 @@ input[type=color] {
 .contact-info-title-sm {
   font-weight: 600;
   font-size: 20px;
-  line-height: 16px;
+  line-height: 20px;
   color: var(--tp-common-black);
   padding-bottom: 6px;
 }
